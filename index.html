@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jammu and Kashmir</title>
+</head>
+<body>
+    <header id="header">
+        <a href="#" class="logo">Jammu and Kashmir</a>
+        <ul class="navigation">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Culture</a></li>
+            <li><a href="#">Flora_Fauna</a></li>
+            <li><a href="#">Festival</a></li>
+            <li><a href="#">Summary</a></li>
+        </ul>
+    </header>
+  
+    <section>
+        <h2 id="txt">Hello Everyone</h2>
+        <img src="monutain_01.png" id="m1">
+        <img src="monutain_02.png" id="m2">
+        <img src="monutain_03.png" id="m3">
+        <img src="monutain_04.png" id="m4">
+        <img src="trees.png" id="tr">
+        <img src="cable_cars.png" id="crs">
+        <img src="house.png" id="house">
+
+    </section>
+
+    <div class="sec">
+        <h2>Intro</h2>
+        <p>Jammu and Kashmir, union territory of India (until October 31, 2019, a state), located in the northern part of the Indian subcontinent centred on the plains around Jammu to the south and the Vale of Kashmir to the north. The union territory is part of the larger region of Kashmir, which has been the subject of dispute between India, Pakistan, and China since the partition of the subcontinent in 1947. Legislation passed in August 2019 set the stage for downgrading Jammu and Kashmir from statehood to union territory status and splitting off a part of it, known as the Ladakh region, into a separate union territory. The change went into effect on October 31 of that year, though several court cases affecting its status remained pending in the years that followed.
+
+            Jammu and Kashmir, formerly one of the largest princely states of India, is bounded to the east by the Indian union territory of Ladakh, to the south by the Indian states of Himachal Pradesh and Punjab, to the southwest by Pakistan, and to the northwest by the Pakistani-administered portion of Kashmir. The administrative capitals are Srinagar in summer and Jammu in winter. Area 16,309 square miles (101,387 square km). Pop. (2011) 12,367,013.
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script>
+        gsap.from("#txt", {
+            scrollTrigger : {
+                scrub: true
+            },
+            x: 350,
+        })
+
+        gsap.from("#m1", {
+            scrollTrigger : {
+                scrub: true
+            },
+            y: 100,
+        })
+
+        gsap.from("#m2", {
+            scrollTrigger : {
+                scrub: true
+            },
+            y: 50,
+        })
+
+        gsap.from("#m3", {
+            scrollTrigger : {
+                scrub: true
+            },
+            y: 200,
+        })
+
+        gsap.from("#m4", {
+            scrollTrigger : {
+                scrub: true
+            },
+            y: 150,
+        })
+
+        gsap.from("#tr", {
+            scrollTrigger : {
+                scrub: true
+            },
+            y: 150,
+        })
+
+        gsap.from("#crs", {
+            scrollTrigger : {
+                scrub: true
+            },
+            x: 100,
+        })
+
+        gsap.from("#house", {
+            scrollTrigger : {
+                scrub: true
+            },
+            y: 50,
+        })
+
+    </script>
+</body>
+</html>
